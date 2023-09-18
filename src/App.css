@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disperse-btn {
+  background-color: blue;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  outline: 0px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.disperse-btn:focus {
+  background-color: rgb(40, 40, 162);
+}
+.disperse-errorMessage svg {
+  height: 30px;
+  width: 30px;
+}
+.disperse-errorMessage {
+  border: 2px solid red;
+  padding: 10px;
+  width: 100%;
+  color: red;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.disperse-errorMessage span {
+  display: block;
+  height: 30px;
+}
+textarea {
+  width: 95vw;
+  height: 300px;
+  margin: 10px;
+  background-color: rgb(236, 239, 248);
+  border: 0px;
+  resize: none;
+  border-radius: 5px;
+  padding: 20px;
+}
+textarea:focus {
+  outline: 0;
+  border-radius: 3px;
+}
